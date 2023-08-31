@@ -1,9 +1,9 @@
 # wiremock-extension-maven
 ## 詰まったところ
 - wiremockのバージョンをextensionとstandalone側で合わせないとエラー
-- dockerのwiremock/wiremockイメージは最新で2.27.0
-- wiremock:2.27.0はJava Runtimeの52までしか対応していない
-- Java Runtimeの52に対応しているJDK8で実装する必要がある
+- JDK8で実装する必要がある
+  - dockerのwiremock/wiremockイメージは最新で2.27.0
+  - wiremock:2.27.0=Java Runtimeの~52(=JDK8に対応)
 
 ## jar生成
 ```shell
